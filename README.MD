@@ -1,0 +1,1 @@
+This script can be ran on PythonAnywhere to track any Python courses - just set the CRN and term for whatever you desire, install the needed libraries & create a .env file. An example .env has been provided in the repository as .exampleenv.
