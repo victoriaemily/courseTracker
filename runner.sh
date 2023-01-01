@@ -1,5 +1,5 @@
 container_name=aws_container
-docker_image=2dbbf98ac650
+docker_image=54d61678f24a
 docker run -td --name=$container_name $docker_image
 docker cp ./requirements.txt $container_name:/
 

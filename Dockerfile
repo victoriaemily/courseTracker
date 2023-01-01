@@ -7,4 +7,6 @@ RUN ulimit -m 1024 && yum -y update && yum -y install \
     && yum clean all
 
 RUN python3 -m pip install pip==22.1.2
-RUN pip install virtualenv==20.14.1
+RUN pip3 install virtualenv==20.14.1
+RUN yum install libxml2
+RUN yum -y install libxslt
